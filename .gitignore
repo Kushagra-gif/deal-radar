@@ -1,0 +1,15 @@
+# Secrets: never commit these
+.env
+.streamlit/secrets.toml
+
+# Local data
+data/*.db
+data/*.db-journal
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
